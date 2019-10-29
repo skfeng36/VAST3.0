@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<VAST xmlns:MM="http://www.demo.com/cupid" version="3.0">  
+  <Ad id="__CAMPAIGNID__"> 
+    <InLine> 
+      <AdSystem><![CDATA[]]></AdSystem>  
+      <AdTitle><![CDATA[VAST Linear_1]]></AdTitle>  
+      <Description><![CDATA[VAST Linear_1]]></Description>  
+      <Impression id="Impression0"><![CDATA[http://demo.net/demo/win?&win=${SETTLEMENT}${EXTPARA}]]></Impression>  
+      <Impression id="Impression1"><![CDATA[http://monitor.com/x/k=2140495&p=7T0Xv&dx=__IPDX__&rt=2&ns=__IP__&ni=__IESID__&v=__LOC__&xa=__ADPLATFORM__&tr=__REQUESTID__%2
+6vg=__AUTOPLAY__&nh=__AUTOREFRESH__&mo=__OS__&m0=__OPENUDID__&m0a=__DUID__&m1=__ANDROIDID1__&m1a=__ANDROIDID__&m2=__IMEI__&m4=__AAID__&m5=__IDFA__&m6=__MAC1__&m6a=_
+_MAC__&m11=__OAID__&o=]]> </Impression>  
+      <Creatives>
+        <Creative id="__CREATIVEID__" AdID="__CAMPAIGNID__" sequence="1"> 
+          <Linear> 
+            <Duration></Duration>
+            <TrackingEvents/>  
+            <VideoClicks> 
+              <ClickThrough type="0"><![CDATA[http://monitor.com/r/k=2140495&p=7T0Xv&dx=__IPDX__&rt=2&ns=
+__IP__&ni=__IESID__&v=__LOC__&xa=__ADPLATFORM__&tr=__REQUESTID__&mo=__OS__&m0=__OPENUDID__&m0a=__DUID__&m1=__ANDROIDID1__&m1a=__ANDROIDID__&m2=__IMEI__&m4=__AAID__&
+m5=__IDFA__&m6=__MAC1__&m6a=__MAC__&m11=__OAID__&vo=322e039cb&vr=2&o=https%3A%2F%2Fgxb.mmstat.com%2Fgxb.gif%3Ft%3Dhttps%253A%252F%252Fequity.tmall.com%252Ftm%253F
+agentId%253D361255%2526_bind%253Dtrue%2526mm_unid%253D1_2570953_560501015e6d57570e0001576d02545e6f0d51050a0c%26v%3Da52ab403e80a%26di%3D__IDFA__%26dim%3D__IMEI__%%%2
+526uni_campaign%3DPDC1864P58D20191012]]></ClickThrough>  
+              <ClickTracking><![CDATA[http://demo.net/demo/ck?${EXTPARA}]]></ClickTracking> 
+            </VideoClicks>  
+            <Icons>
+              <Icon>
+                <StaticResource><![CDATA[http://pic5.com/common/20160824/356e57f5d44bfab5f131f0d3b3822.png]]></StaticResource>
+              </Icon> 
+            </Icons>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
